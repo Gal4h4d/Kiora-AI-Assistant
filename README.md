@@ -121,15 +121,6 @@ Navegador (Three.js + VRM)
 - [ ] Streaming de respuestas (actualmente `stream: false`, la respuesta llega completa)
 - [ ] Sincronización de labios más precisa (lip-sync real en vez de aproximación senoidal)
 
-## ⚠️ Notas de seguridad
-
-- `kiora.py` corre con `debug=True` y escucha en `0.0.0.0`, lo cual es conveniente para desarrollo en red local pero **no debe usarse así en producción ni expuesto a internet**.
-- No subas archivos de configuración con credenciales (usuarios, contraseñas, tokens) al repositorio. Si usas extensiones de VS Code como SFTP/FTP para sincronizar con otro dispositivo, agrega su configuración a `.gitignore`.
-
-## 📄 Licencia
-
-Este repositorio no especifica una licencia actualmente. Si piensas compartirlo o aceptar contribuciones, considera agregar una (por ejemplo, MIT).
-
 ## 👤 Autor
 
 **Juan David** ([Gal4h4d](https://github.com/Gal4h4d)) — proyecto personal, parte de una iniciativa de largo plazo para construir una asistente de IA de escritorio con interfaz animada en tiempo real.
